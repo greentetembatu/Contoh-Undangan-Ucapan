@@ -36,7 +36,7 @@
 </head>
 <body>
 
-    <div class="overlay" id="landingOverlay">
+  <div class="overlay" id="landingOverlay">
         <div class="overlay-content">
             <h1>Undangan Pernikahan</h1>
             <h2>Wanita & Pria</h2>
@@ -45,7 +45,13 @@
             <img src="foto/pasangan-jawa4.jpg" alt="Foto Pasangan Pengantin" class="foto-depan">
             <p class="to-text">Kepada Yth:</p>
             <h3 id="guest-name-display">Tamu Undangan</h3>
+                    <button id="showBarcodeBtn" class="showBarcodeBtn">Lihat Barcode Anda di Sini</button>
+
+        <div id="barcodeContainer" class="barcode-container hidden">
+            <img id="guestBarcodeImage" src="" alt="Barcode Tamu" class="barcode-image">
+        </div>
             <button id="openWebsiteBtn" class="openWebsiteBtn">Buka Undangan</button>
+            
             <audio id="background-music" loop>
                 <source src="NIKI - You'll be in my heart (Spotify Single)  Music Lyric Video.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
